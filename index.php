@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Evaluativa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="imagen"></div>
+        </div>
+        <form action="calculo.php" method="POST" id="form">
+            <div class="social">
+                <div class="titulo">Calculo de Prestaciones</div>
+            </div>
+            <div class="texto">
+
+            </div>
+            <!-- Entrada de datos "Nombre" -->
+            <div class="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="" require>
+            </div>
+            <!-- Entrada de datos "Apellido" -->
+            <div class="">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+            <!-- Entrada de datos "Año de Ingreso" -->
+            <div class="">
+                <label for="añoDeIngreso">Año de ingreso</label>
+                <input type="number" name="ingreso" id="" require>
+            </div>
+            <!-- Entrada de datos "Año de Calculo" -->
+            <div class="">
+                <label for="AñoDeCalculo">Año de calculo</label>
+                <input type="number" name="calculo" id="" require>
+            </div>
+            <!-- Entrada de datos "Sueldo" -->
+            <div class="">
+                <label for="sueldo">Sueldo</label>
+                <input type="number" name="sueldo" id="" require>
+            </div>
+            <button type="submit" id="submit">Enviar</button>
+    </form>
+    </div>
+    
+
+</body>
+</html>
